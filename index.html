@@ -3,12 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Basketball Club</title>
+    <title>Basketball Club Neratovice</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <h1>Basketball Club</h1>
+        <h1>Basketball Club Neratovice</h1>
+        <!--Navigation bar section-->
         <nav>
             <ul>
                 <li><a href="#upcoming-matches">Upcoming Matches</a></li>
@@ -17,61 +18,78 @@
                 <li><a href="#online-shop">Online Shop</a></li>
                 <li><a href="#newsletter">Newsletter</a></li>
                 <li><a href="#sponsors">Sponsors</a></li>
-                <li><a href="#contact">Contact</a></li>
                 <li><a href="#donate">Donate</a></li>
             </ul>
         </nav>
     </header>
-
+        
+    <!--Section for upcoming matches of the club-->
     <section id="upcoming-matches">
         <h2>Upcoming Matches</h2>
         
         <div class="match">
             <p class="match-date">Date: January 20, 2024</p>
-            <p class="match-opponent">Opponent: Team A</p>
+            <p class="match-opponent">Opponent: Joventut Badalona</p>
             <p class="match-location">Location: Basketball Arena</p>
         </div>
     
         <div class="match">
             <p class="match-date">Date: January 25, 2024</p>
-            <p class="match-opponent">Opponent: Team B</p>
+            <p class="match-opponent">Opponent: FC Barcelona</p>
             <p class="match-location">Location: Sports Complex</p>
         </div>
-    
-        <!-- Add more match entries as needed -->
-    
+        
+        <div class="match">
+            <p class="match-date">Date: January 31, 2024</p>
+            <p class="match-opponent">Opponent: London Lions</p>
+            <p class="match-location">Location: Sports Complex</p>
+        </div>
+
+        <div class="match">
+            <p class="match-date">Date: February 2, 2024</p>
+            <p class="match-opponent">Opponent: Slask Wroclaw</p>
+            <p class="match-location">Location: Sports Complex</p>
+        </div>
+
+        <div class="match">
+            <p class="match-date">Date: February 7, 2024</p>
+            <p class="match-opponent">Opponent: VEF Riga</p>
+            <p class="match-location">Location: Sports Complex</p>
+        </div>
+        
+        <!--Add more games as needed-->
     </section>
     
 
-<!-- Add the following inside the <section id="results"> in your index.html file -->
+<!--Results of the basketball games-->
 
     <section id="results">
         <h2>Match Results</h2>
         
         <div class="result">
             <p class="result-date">Date: January 15, 2024</p>
-            <p class="result-opponent">Opponent: Team C</p>
-            <p class="result-score">Score: Basketball Club 85 - 78 Team C</p>
+            <p class="result-opponent">Opponent: CSKA Moscow</p>
+            <p class="result-score">Score: Basketball Club Neratovice 85 - 78 CSKA Moscow</p>
         </div>
     
         <div class="result">
             <p class="result-date">Date: January 10, 2024</p>
-            <p class="result-opponent">Opponent: Team D</p>
-            <p class="result-score">Score: Basketball Club 92 - 64 Team D</p>
+            <p class="result-opponent">Opponent: Khimki Moscow</p>
+            <p class="result-score">Score: Basketball Club Neratovice 92 - 64 Khimki Moscow</p>
         </div>
     
-        <!-- Add more result entries as needed -->
+        <!--Add more result entries as needed-->
     
     </section>
     
 
-<!-- Add the following inside the <section id="club-history"> in your index.html file -->
+<!--Section for the history of the club-->
 
     <section id="club-history">
         <h2>Club History</h2>
         
         <p>
-            The Basketball Club was founded in 1990 with the goal of promoting and nurturing a passion for basketball.
+            The Basketball Club Neratovice was founded in 1990 with the goal of promoting and nurturing a passion for basketball.
             Over the years, the club has achieved numerous victories and milestones, contributing to the growth of the sport
             and creating a strong community of players, fans, and supporters.
         </p>
@@ -81,30 +99,37 @@
             From local tournaments to national championships, we have strived to be a beacon of sportsmanship and integrity.
         </p>
     
-        <!-- Add more historical information as needed -->
+        <!-- Add more historical info as needed -->
     
     </section>
 
-<!-- Add the following inside the <section id="online-shop"> in your index.html file -->
+<!--Section for the online shop-->
 
     <section id="online-shop">
         <h2>Online Shop</h2>
         
         <div class="product">
-            <img src="picture.jpg" alt="Basketball Jersey">
+            <img src="poster.png" alt="Basketball Jersey">
             <p class="product-name">Basketball Jersey</p>
             <p class="product-price">$39.99</p>
             <button class="buy-button" onclick="addToCart('Basketball Jersey', 39.99)">Add to Cart</button>
         </div>
     
         <div class="product">
-            <img src="poster.png" alt="Player Poster">
+            <img src="picture.jpg" alt="Player Poster">
             <p class="product-name">Player Poster</p>
             <p class="product-price">$9.99</p>
             <button class="buy-button" onclick="addToCart('Player Poster', 9.99)">Add to Cart</button>
         </div>
+
+        <div class="product">
+            <img src="basketball.jpg" alt="Signed Basketball">
+            <p class="product-name">Signed Basketball</p>
+            <p class="product-price">$19.99</p>
+            <button class="buy-button" onclick="addToCart('Signed Basketball', 19.99)">Add to Cart</button>
+        </div>
     
-        <!-- Add more product entries as needed -->
+        <!-- Add more products as needed -->
     
         <div id="cart">
             <h3>Shopping Cart</h3>
@@ -115,7 +140,7 @@
     </section>
     
 
-<!-- Add the following inside the <section id="newsletter"> in your index.html file -->
+<!--Section for the newsletter-->
 
     <section id="newsletter">
         <h2>Newsletter Subscription</h2>
@@ -129,26 +154,20 @@
         </form>
     </section>
     
-
-<!-- Add the following inside the <section id="sponsors"> in your index.html file -->
+    <!--Section for the newsletter--> 
 
     <section id="sponsors">
         <h2>Our Sponsors</h2>
         
         <ul class="sponsor-list">
-            <li><img src="sponsor1.png" alt="Sponsor 1"></li>
-            <li><img src="sponsor2.png" alt="Sponsor 2"></li>
-            <li><img src="sponsor3.png" alt="Sponsor 3"></li>
+            <li><img src="sponsor1.png" alt="Nike"></li>
+            <li><img src="sponsor2.png" alt="The Breakfast Club"></li>
+            <li><img src="sponsor3.png" alt="Apple"></li>
             <!-- Add more sponsor entries as needed -->
         </ul>
     </section>
-    
 
-    <section id="contact">
-        <!-- Display contact information and form here -->
-    </section>
-
-<!-- Add the following inside the <section id="donate"> in your index.html file -->
+<!--Section for donations-->
 
     <section id="donate">
         <h2>Support Us - Donate</h2>
@@ -161,11 +180,6 @@
             <button type="submit">Donate</button>
         </form>
     </section>
-    
-
-    <footer>
-        <!-- Display footer information here -->
-    </footer>
 
     <script src="script.js"></script>
 </body>
