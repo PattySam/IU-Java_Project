@@ -1,4 +1,4 @@
-// Add the following inside your script.js file
+// Section for adding items into cart
 
 let cartItems = [];
 
@@ -28,29 +28,25 @@ function updateCart() {
 }
 
 function checkout() {
-    // Implement checkout logic here (e.g., connect to a payment gateway)
     alert('Thank you for your purchase!');
     cartItems = [];
     updateCart();
 }
 
-// Add the following inside your script.js file
+// Section for submitting an email to a newsletter
 
 document.getElementById('newsletter-form').addEventListener('submit', function (event) {
     event.preventDefault();
 
     const emailInput = document.getElementById('email');
     const email = emailInput.value;
-
-    // Implement newsletter subscription logic here (e.g., send email to user or store in a database)
     
     alert(`Thank you for subscribing! We'll keep you updated.`);
     
-    // Optionally, clear the email input field after subscribing
     emailInput.value = '';
 });
 
-// Add the following inside your script.js file
+// Section for creating a donation
 
 document.getElementById('donate-form').addEventListener('submit', function (event) {
     event.preventDefault();
@@ -58,9 +54,7 @@ document.getElementById('donate-form').addEventListener('submit', function (even
     const amountInput = document.getElementById('amount');
     const amount = amountInput.value;
 
-    // Implement donation logic here (e.g., connect to a payment gateway)
     alert(`Thank you for your donation of $${amount}!`);
     
-    // Optionally, clear the amount input field after donation
     amountInput.value = '';
 });
