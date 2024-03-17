@@ -11,9 +11,7 @@ basketballs.
 there is something new coming up about the club, the user will be informed as soon as 
 possible.
  At the bottom of the page there will be list of sponsors who are helping the club. 
-There will be a way to contact the club, write reviews and donate if somebody wants to 
-help the club financially.
- The web application will be written in HTML and CSS. For the dynamic aspects I will 
+The web application will be written in HTML and CSS. For the dynamic aspects I will 
 be using JavaScript. That is for the front-end. As for the back-end I will be using Nodejs.
 
 
@@ -34,13 +32,20 @@ Follow these steps to set up and run the project locally:
  Open your web browser and navigate to http://localhost:3000.
 
 ## Features
-# Upcoming Matches: View information about upcoming matches in various categories.
-# Results: Check the latest results of matches.
-# Club History: Learn about the history and achievements of the basketball club.
-# Newsletter Subscription: Subscribe to the newsletter to receive updates about the club.
-# Donations: Support the club financially by making a donation.
-# Online Shop: Purchase jerseys, posters, and signed basketballs of your favorite players.
-# Sponsors: Acknowledgment to sponsors supporting the club.
+# Upcoming Matches: 
+View information about upcoming matches in various categories.
+# Results: 
+Check the latest results of matches.
+# Club History: 
+Learn about the history and achievements of the basketball club.
+# Newsletter Subscription: 
+Subscribe to the newsletter to receive updates about the club.
+# Donations: 
+Support the club financially by making a donation.
+# Online Shop: 
+Purchase jerseys, posters, and signed basketballs of your favorite players.
+# Sponsors: 
+Acknowledgment to sponsors supporting the club.
 
 
 ## Test Cases
