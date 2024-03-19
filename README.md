@@ -20,15 +20,15 @@ be using JavaScript. That is for the front-end. As for the back-end I will be us
 This repository contains the source code for a basketball club website. The website provides information about upcoming matches, results, club history, and more.
 # Setup Instructions
 Follow these steps to set up and run the project locally:
-# Clone the Repository:
+Clone the Repository:
    git clone https://github.com/PattySam/IU-Java_Project/
-# Navigate to the Project Directory:
+Navigate to the Project Directory:
  cd basketball-club-website
-# Install Dependencies:
+Install Dependencies:
  npm install
-# Run the Server:
+Run the Server:
  node server.js
-# Access the Website:
+Access the Website:
  Open your web browser and navigate to http://localhost:3000.
 
 ## Features
